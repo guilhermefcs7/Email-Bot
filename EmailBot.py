@@ -5,7 +5,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 load_dotenv('.env.local')
 
-contatos = [('Caio', 'caio.macedo@alura.com.br', '14/04')]
+contatos = [('CaIETAXX', 'caio.macedo@alura.com.br', '14/04')]
 
 user = os.getenv('EMAIL_USER')
 password = os.getenv('EMAIL_PASSWORD')
